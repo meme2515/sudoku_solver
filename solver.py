@@ -42,12 +42,12 @@ def is_valid(i, j, num, board):
     """
     # Check validity of row.
     for k in range(len(board[i])):
-        if (board[i][k] == num) and (k != i):
+        if (board[i][k] == num) and (k != j):
             return False
 
     # Check validity of column.
     for l in range(len(board)):
-        if (board[l][j] == num) and (l != j):
+        if (board[l][j] == num) and (l != i):
             return False
 
     # Check validity of nonet.
@@ -85,3 +85,4 @@ sample_game =  [[0, 0, 0, 2, 6, 0, 7, 0, 1],
                 [0, 0, 9, 3, 0, 0, 0, 7, 4],
                 [0, 4, 0, 0, 5, 0, 0, 3, 6],
                 [7, 0, 3, 0, 1, 8, 0, 0, 0]]
+

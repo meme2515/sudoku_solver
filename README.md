@@ -12,5 +12,3 @@ Details about the backtracking algorithm can be found in this link: https://www.
 ## 🎮 Pygame
 
 Pygame is a Python module designed for video game production. In this project, I have implemented the module to create a GUI version of the game of sudoku. In it, you have the option to either play and actual game of sudoku or turn to an automated solution generator.
-
-![Alt text](Capture.jpg?raw=true)

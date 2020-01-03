@@ -13,10 +13,10 @@ Details about the backtracking algorithm can be found in [this link](https://www
 
 Pygame is a Python module designed for video game production. In this project, I have implemented the module to create a GUI version of the game of sudoku. In it, you have the option to either play the actual game of sudoku or turn to an automated solution generator by pressing space bar.
 
-You can enter values manually by clicking available box, entering numeric value and pressing enter. Upon enter command, the game checks whether the value entered is valid and accepts/rejects value.
+1. You can enter values manually by clicking available box, entering numeric value and pressing enter. Upon enter command, the game checks whether the value entered is valid and accepts/rejects value.
 
 ![alt text](Capture2.JPG)
 
-By pressing space bar you can run the `solve` command.
+2. By pressing space bar you can run the `solve` command.
 
 ![alt text](Capture3.JPG)
